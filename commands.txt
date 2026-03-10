@@ -1,0 +1,43 @@
+Features implemented yet:
+
+keep sending ss whenever online
+!ss - request ss
+!steam - request a stream of ss
+!cmd [command] - Execute terminal commands
+!getfile [path] - request a file from target
+!download [file url] - download a file in target device
+!setwallpaper [filename] - change target device wallpaper
+
+slash commands (/):
+
+shutdown
+reboot
+lock
+
+msg [message]: show message on target screen
+off
+flicker
+
+mute
+fullvol
+novol
+setvol [volume level]
+
+caps
+combo! [keytstrokes]
+exit
+
+open![url] - open url
+spam n![url] - open n tabs of url
+closetab!n - press ctrl+w n times
+refresh - refresh browser tab
+
+ssfreeze!n - freeze screen for n seconds
+savess - saves screenshot under name of image.png
+move!n - keep moving mouse at random locations for n seconds
+mousefreeze!n: freeze mouse for n seconds
+loopmouse: loop mouse position for n seconds
+click! 0.5 0.5: click at centre of screen (0-1 values for both x and y)
+scroll!n - keep scrolling randomly for n seconds
+
+after slash multiple commands can be commands seperated by a pipe (|)

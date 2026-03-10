@@ -3,3 +3,5 @@ requests==2.32.5
 pillow
 praw
 keyboard
+discord.py
+python-dotenv
