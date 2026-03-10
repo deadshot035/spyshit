@@ -9,7 +9,7 @@ import pyautogui as pg
 from commands import Command
 import ctypes
 
-PASTEBIN_URL = ""
+PASTEBIN_URL = "API KEY RAW PASTEBIN DOCUMENT URL HERE"
 
 print("Awaiting internet connection...")
 while True:
@@ -184,4 +184,5 @@ def getToken() -> str:
         return getToken()
 
 token = getToken()
+
 bot.run(token)
